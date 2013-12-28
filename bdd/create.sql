@@ -1,0 +1,5 @@
+CREATE TABLE exemple (
+	a INT(20) PRIMARY KEY AUTO_INCREMENT,
+	b VARCHAR(20),
+	c date
+);
