@@ -20,6 +20,7 @@ var nav  = {
 	},
 };
 
+
 $(document).ready(function (){
 	nav.init();
 });
@@ -37,6 +38,3 @@ $("nav").mouseleave(function(){
    v_nav.test = true;
    v_nav.navi.animate({left: -v_nav.width*0.95},300);  
 });
-
-
-
